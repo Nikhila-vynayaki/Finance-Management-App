@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 80vh;
+  margin: auto;
+}
+
+.header {
+  margin: 2px;
+}
+
+.register-page,
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.transactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+  box-shadow: 1px 1px 3px #888888;
+}
+
+.full-width {
+  width: 100%;
+}
+.table-data {
+  margin: 10px;
+}
+.userName {
+  font-weight: bold;
+  font-size: 18px;
+  color: darkmagenta;
+  border-radius: 50%;
+  background-color: rgb(204, 196, 196);
+  padding: 5px 6px;
+}
+.userName:hover {
+  background-color: darkmagenta;
+  color: white;
+  transform: scale(1.05);
+}
