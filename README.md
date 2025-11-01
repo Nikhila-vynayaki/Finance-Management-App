@@ -343,10 +343,7 @@ The database connection string is stored in the `.env` file and loaded during se
 
 ## 🚀 Future Enhancements
 
-- Implement **user authentication** with JWT
-- Add **password encryption** using bcrypt
 - Create **request validation** middleware
-- Add a **frontend interface** (React or Next.js)
 - Integrate **transaction tracking and analytics**
 
 ---
